@@ -1,0 +1,2 @@
+# gmp
+Generalized Max Pooling
