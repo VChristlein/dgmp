@@ -1,2 +1,2 @@
-# GMP
-Generalized Max Pooling
+# DGMP
+Deep Generalized Max Pooling
