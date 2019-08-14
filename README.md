@@ -1,4 +1,4 @@
-### Deep Generalized Max Pooling (DGMP)
+# Deep Generalized Max Pooling (DGMP)
 
 ![DGMP Overview](dgmp.png)
 
@@ -8,7 +8,7 @@ of the following publication:
 _V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier,
 "Deep Generalized Max Pooling," in 15th International Conference on Document Analysis and Recognition, Sep. 2019, Sydney, Australia_
 
-# Abstract:
+## Abstract:
 > Global pooling layers are an essential part of Convolutional Neural Networks
 > (CNN). They are used to aggregate activations of spatial locations to produce a
 > fixed-size vector in several state-of-the-art CNNs. Global average pooling or
@@ -25,14 +25,14 @@ _V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier,
 
 tldr: Use DGMP as global pooling layer to get some more accuracy
 
-# Requirements
+## Requirements
 Both code-bases are independent.
 
 The clamm code only requires:
  - pytorch >= 1.0
  - sklearn
 
-# Run
+## Run
 Have a look at the _scripts_ folder.
 
 Just looking for the pooling layer? -> see _pooling.py_ in one of the folders.
