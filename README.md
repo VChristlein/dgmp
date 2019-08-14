@@ -26,13 +26,9 @@ _V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier,
 tldr: Use DGMP as global pooling layer to get some more accuracy
 
 ## Requirements
-Both code-bases are independent.
-
-The clamm code only requires:
- - pytorch >= 1.0
- - sklearn
+Both code-bases are independent, please see individual folders.
 
 ## Run
-Have a look at the _scripts_ folder.
+Have a look at the _scripts_ folders.
 
 Just looking for the pooling layer? -> see _pooling.py_ in one of the folders.
