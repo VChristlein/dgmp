@@ -1,0 +1,4 @@
+echo "avg pool"
+python train.py train --num-classes 14 --samples-per-class 4 --optimizer=adam --lr=0.0002 --margin=0.1 --epochs=120 --weight-decay=0.00001 --lr-scheduler exp --start-exp-decay 61  --pooling avg --log-interval 100 --val-interval 10 --experiment-dir avg_baseline_margin01 --binarized --use-patches --canny-sigma 3 --threshold-features 2000  --trainval
+echo "max pool"
+python train.py train --num-classes 14 --samples-per-class 4 --optimizer=adam --lr=0.0002 --margin=0.1 --epochs=120 --weight-decay=0.00001 --lr-scheduler exp --start-exp-decay 61  --pooling max --log-interval 100 --val-interval 10 --experiment-dir max-baseline_margin01 --binarized --use-patches --canny-sigma 3 --threshold-features 2000 --pool-lr-multiplier 1000 --trainval
