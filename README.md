@@ -25,6 +25,16 @@ _V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier,
 
 tldr: Use DGMP as global pooling layer to get some more accuracy
 
+## Results
+
+| Method   	| ICDAR'17 	| CLAMM'16 	| CLAMM'17 	|
+|----------	|:--------:	|----------	|----------	|
+| Avg      	|   69.2   	|   85.9   	|   81.3   	|
+| Max      	|   69.6   	|   85.5   	|   81.3   	|
+| Mixed    	|   69.6   	|          	|          	|
+| LSE      	|   70.0   	|          	|          	|
+| **DGMP** 	|   73.9   	|   87.1   	|   83.3   	|
+
 ## Requirements
 Both code-bases are independent, please see individual folders.
 
