@@ -3,8 +3,11 @@
 ## CLaMM experiments 
 
 ## Requirements
- - pytorch >= 1.0
+ - torch >= 1.0 
+ - torchvision
+ - tensorboardX (only if you use torch < 1.2)
  - sklearn
+ - configargparse
 
 ## Run
  - Adjust paths in the _config_ folder (label-files are given below _labelfiles_)
