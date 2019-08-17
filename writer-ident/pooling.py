@@ -4,6 +4,8 @@ import torch.nn.functional as F
 
 def getPool(pool_type='avg', gmp_lambda=1e3, lse_r=10):
     """
+    # NOTE: this function is not used in writer_ident, s. constructor of
+    # ResNet50Encoder
     params
         pool_type: the allowed pool types
         gmp_lambda: the initial regularization parameter for GMP

@@ -26,18 +26,10 @@ class ResNet50Encoder(nn.Module):
             self.pool = GMP(lamb=gmp_lambda)
         elif pool == 'avg':
             self.pool = nn.AdaptiveAvgPool2d(1)
-        elif pool == 'weighted_avg':
-            self.pool = WeightedAvgPool2d(init_weight=1, dim=self.dim_encoding)
-        elif pool == 'gem':
-            self.pool = GeM()
-        elif pool == 'conv':
-            self.pool = nn.Conv2d(2048, conv_dim, kernel_size=last_filter_size)
         elif pool == 'max':
             self.pool = nn.AdaptiveMaxPool2d(1)
         elif pool == 'lse':
             self.pool = LSEPool(lse_r)
-        elif pool == 'gmp-fix':
-            self.pool = GMPFixedParameter(lamb=gmp_lambda)
         elif pool == 'mixed-pool':
             self.pool = MixedPool(0.5)
         else:
