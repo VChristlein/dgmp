@@ -2,15 +2,6 @@
 
 ![DGMP Overview](dgmp.png)
 
-This repository contains the code to reproduce the evaluations
-of the following publication:
-
-_V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier.
-"Deep Generalized Max Pooling." arXiv preprint arXiv:1908.05040 (2019)._
-
-It will be presented soon at the 15th International Conference on Document Analysis and Recognition, Sep. 2019, Sydney, Australia
-
-
 ## Abstract:
 > Global pooling layers are an essential part of Convolutional Neural Networks
 > (CNN). They are used to aggregate activations of spatial locations to produce a
@@ -49,3 +40,11 @@ Both code-bases are independent, please see individual folders.
 Have a look at the _scripts_ folders.
 
 Just looking for the pooling layer? -> see _pooling.py_ in one of the folders.
+
+## Citation
+Please cite the following paper if you found our work useful. Thanks!
+
+_V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier.
+"Deep Generalized Max Pooling." arXiv preprint arXiv:1908.05040 (2019)._
+
+It will be presented soon at the 15th International Conference on Document Analysis and Recognition, Sep. 2019, Sydney, Australia
