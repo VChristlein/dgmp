@@ -5,8 +5,11 @@
 This repository contains the code to reproduce the evaluations
 of the following publication:
 
-_V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier,
-"Deep Generalized Max Pooling," in 15th International Conference on Document Analysis and Recognition, Sep. 2019, Sydney, Australia_
+_V. Christlein, L. Spranger, M. Seuret, A. Nicolaou, P. Král, A. Maier.
+"Deep Generalized Max Pooling." arXiv preprint arXiv:1908.05040 (2019)._
+
+It will be presented soon at the 15th International Conference on Document Analysis and Recognition, Sep. 2019, Sydney, Australia
+
 
 ## Abstract:
 > Global pooling layers are an essential part of Convolutional Neural Networks
