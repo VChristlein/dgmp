@@ -2,6 +2,8 @@
 
 ![DGMP Overview](dgmp.png)
 
+Paper Link: https://arxiv.org/abs/1908.05040
+
 ## Abstract:
 > Global pooling layers are an essential part of Convolutional Neural Networks
 > (CNN). They are used to aggregate activations of spatial locations to produce a
