@@ -45,7 +45,8 @@ class GMP(nn.Module):
         # solve the linear system (K + lambda * I) * alpha = ones
         A = K + self.lamb * identity
         o = torch.ones(B, N, 1).cuda()
-        alphas, _ = torch.gesv(o, A)
+        #alphas, _ = torch.gesv(o, A) # tested using pytorch 1.0.1
+        alphas, _ = torch.solve(o, A) # tested using pytorch 1.2.0
         alphas = alphas.view(B, 1, -1)        
         xi = torch.bmm(alphas, x)
         xi = xi.view(B, -1)
