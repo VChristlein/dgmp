@@ -41,7 +41,7 @@ Both code-bases are independent, please see individual folders.
 ## Run
 Have a look at the _scripts_ folders.
 
-Just looking for the pooling layer? -> see _dgmp.py_ (note: this differs from the version in clamm/pooling.py because there the l2 normalization is added later, i.e. in _init_model.py_)
+Just looking for the pooling layer? -> see _dgmp.py_ (note: this differs from the version in _clamm/pooling.py_ because there the l2 normalization is added later, i.e. in _init_model.py_)
 
 ## Citation
 Please cite the following paper if you found our work useful. Thanks!
