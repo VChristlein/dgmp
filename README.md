@@ -29,8 +29,8 @@ Average results of 5 runs:
 |--------|:--------:|:--------:|:--------:|
 | Avg    |   69.2   |   85.9   |   81.3   |
 | Max    |   69.6   |   85.5   |   81.3   |
-| Mixed  |   69.6   |  (82.3)  |  (79.2)  |
-| LSE    |   70.0   |  (83.9)  |  (80.4)  |
+| Mixed  |   69.6   |  ()  |  ()  |
+| LSE    |   70.0   |  ()  |  ()  |
 | DGMP   |   **73.9**   |   **87.1**   |   **83.3**   |
 
 Numbers in brackets are additional results not part of the paper (evaluated after paper submission but with same parameters as the other experiments, i.e. adam w. lr 0.0004, batch size 28, etc.). 
